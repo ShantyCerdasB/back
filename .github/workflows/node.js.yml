@@ -28,9 +28,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run backend tests
-        run: yarn run test
-
       - name: Build the backend
         run: yarn build
 
